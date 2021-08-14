@@ -1,0 +1,12 @@
+- 建立
+	- A -> B: SYN = 1 seq = x
+	- B -> A: SYN = 1 ACK = 1 seq = y ack = x + 1
+	- A -> B: SYN = 1 ACK = 1 seq = x + 1 ack = y + 1
+	- 传输开始
+- 释放
+	- A -> B: FIN = 1 seq = u
+	- B -> A: ACK = 1 seq = v ack = u + 1
+	- 至此A -> B的连接已经关闭，但是A依然可以接收来自B的数据
+	- B -> A: FIN = 1 seq = w ack = u + 1
+	- A -> B: ACK = 1 seq = u + 1 ack = w + 1
+	- 至此双向连接关闭
