@@ -1,0 +1,8 @@
+- 一位全加器
+	- 当前位生成$S_i=A_i\oplus B_i \oplus C_i$
+	- 进位信息生成$C_i = A_iB_i + (A_i\oplus B_i)C_{i-1}$
+- 串行加法器：将数字按位传入**一位全加器**中
+- 并行加法器
+	- 本地进位$G_i = A_iB_i$
+	- 传递进位$P_i = (A_i\oplus B_i)$
+	- 对于任意位的计算有$$C_i = G_i + P_iG_{i - 1} + P_iP_{i - 1}G_{i - 2} + \cdots + P_iP_{i - 1}\cdots P_2G_1+ P_iP_{i - 1}\cdots P_1C_0$$
