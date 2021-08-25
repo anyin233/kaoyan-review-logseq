@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "188b2373284f2f52",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a2a7d99a0c90f1a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "指令系统.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "38a1241a33a06575",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f16e492601af352",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3a7668930ccebce",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5f84deae0ad28731",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b4ac3c046f440308",
+    "type": "split",
+    "children": [
+      {
+        "id": "cefd1d4c80ac1898",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c60434c544890bd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "指令系统.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "2a2a7d99a0c90f1a",
+  "lastOpenFiles": [
+    "指令系统.md",
+    "计算机组成原理.md",
+    "考研复习.md",
+    "ALU设计.md",
+    "马克思主义哲学.md"
+  ]
+}

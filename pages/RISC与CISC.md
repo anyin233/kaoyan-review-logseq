@@ -1,0 +1,5 @@
+- ![image.png](../assets/image_1629450363054_0.png)
+- ![image.png](../assets/image_1629450371659_0.png)
+- 几个需要注意的问题
+	- RISC中每条指令尽量简单，CISC中则尽量强大
+	- RISC必然采用流水，但是采用流水的不一定是RISC
