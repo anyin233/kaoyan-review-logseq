@@ -1,2 +1,4 @@
 - 关联 [[计算机组成原理]] 中的 [[IO设备]] 内容
-- IOd
+- IO的层次结构
+	- ![image.png](../assets/image_1630652263194_0.png){:height 244, :width 486}
+	-
