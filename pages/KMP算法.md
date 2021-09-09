@@ -8,6 +8,9 @@
 		  ```
 		  for (int i = 0; i < n; ++i)
 		  {
-		  
+		      while(j && p[i] != p[j + 1]) j = ne[j];
+		      if (p[i] == p[j + 1]) j ++;
+		      ne[i] = j;
 		  }
 		  ```
+		-
